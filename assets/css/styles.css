@@ -64,8 +64,8 @@ a {
   text-decoration-color: var(--yellow);
 }
 
-
-a.button, button, input[type="button"] {
+/* Separe a.button */
+a .button, button, input[type="button"] {
   color: white;
   background: var(--pink);
   padding: 1rem;
@@ -76,7 +76,8 @@ a.button, button, input[type="button"] {
   font-size:2rem;
 }
 
-:focus {
+/* Coloque button antes de focus */
+button:focus {
   outline-color: var(--pink);
 }
 
