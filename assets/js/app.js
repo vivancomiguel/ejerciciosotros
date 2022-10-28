@@ -1,4 +1,6 @@
 /*
+  Funcionamiento
+  Este programa hace una solicitud get de un usuario con displayUser(usuario) y la muestra en pantalla
   Cambios
   Rectifique la forma de tomar el name por #name
   Renombre las constantes de elementos del DOM
